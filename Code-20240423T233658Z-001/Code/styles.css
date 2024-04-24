@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(218, 165, 32, 50);
+}
+
+/* navigation */
+
+#header nav img {
+    float: left;
+    cursor: pointer;
+    height: 100px;
+    margin-left: 5px;
+}
+
+#header nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    z-index: 1;
+    background-image: url("images/header_bg.png");
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#header nav .navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1vw;
+}
+
+#header nav .navigation ul li {
+    list-style: none;
+    margin-left: 0px;
+}
+
+#header nav .navigation ul li a {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    transition: 0.3s ease;
+}
+
+#header nav .navigation ul li a:hover {
+    color: goldenrod;
+}
+
+#header nav .navigation ul li a:focus {
+    color: goldenrod;
+}
+
+/* body */
+
+#home .vid_loop {
+    padding-top: 140px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*#home .vid_loop h1 {
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+}*/
+
+#home .vid_loop video {
+    position: static;
+    pointer-events: none;
+    width: 100%;
+}
+
+#home .univ_intro {
+    background-color: #480808;
+}
+
+#home .univ_intro h1 {
+    padding: 2vh;
+    text-align: center;
+    font-family: "Open Sans";
+    color: white;
+}
+
+#home .univ_intro p {
+    padding: 2vh 2vw;
+    text-align: justify;
+    font-family: "Open Sans";
+    color: white;
+}
+
+
+
+#Admins {
+    h1{
+        position: relative;
+        font-size: 50px;
+        left: 20px;
+        bottom:200px;
+        color: black;
+    }
+    h3{
+        position: relative;
+        font-size: 30px;
+        left: 10px;
+        bottom: 150px;
+        color: black;
+    }
+}
+
+/* Admins  */
+
+/* Principal*/
+#Admins {
+    position: relative;
+    padding: 27vw 8vw 0px 8vw;
+    text-align: center;
+    
+}
+
+#Admins .admins-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+
+
